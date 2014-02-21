@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <members>RMS_Project_Demand_and_Forecast</members>
+    <name>CustomApplication</name>
+  </types>  
+  <types>
+	<members>RMS_DM__c</members>
+    <members>RMS_DM_Doc_Issue__c</members>
+    <members>RMS_DM_Doc_Milestone__c</members>
+    <name>CustomTab</name>
+  </types> 
+  <types>
+    <members>RMS_DM__c</members>
+    <members>RMS_DM_Doc_Issue__c</members>
+    <members>RMS_DM_Doc_Milestone__c</members>
+    <name>CustomObject</name>
+  </types>  
+  <types>
+    <members>RMS_DM_Manager_Platform</members>
+    <members>RMS_DM_Manager</members>
+    <members>RMS_DM_Viewer_Platform</members>
+	<members>RMS_DM_Viewer</members>
+    <name>PermissionSet</name>
+  </types>  
+  <types>
+    <members>RMS_DM__c-RMS Compliance Demand Forecast Layout</members>
+	<members>RMS_DM_Doc_Issue__c-RMS DM Doc Issue Layout</members>
+	<members>RMS_DM_Doc_Milestone__c-RMS CP Forecast Layout</members>
+    <name>Layout</name>
+  </types>  
+  <types>
+    <members>RMS_DM_with_RMS_DM_Doc_Milestones_with_RMS_DM_Doc_Issues</members>
+    <name>ReportType</name>
+  </types>  
+  <types>
+    <members>RMS_DM_Report</members>
+    <members>RMS_DM_Report/RMS_DM_TD_Project_Load</members>	
+    <members>RMS_DM_Report/RMS_DM_QR_Utilization</members>
+    <members>RMS_DM_Report/RMS_DM_QR_Project_Load</members>
+    <members>RMS_DM_Report/RMS_DM_TD_Utilization</members>
+	<members>RMS_DM_Report/RMS_DM_Document_Status</members>
+    <name>Report</name>
+  </types>  
+  <version>29.0</version>
+</Package>
